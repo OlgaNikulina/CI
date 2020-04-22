@@ -1,5 +1,4 @@
-image: Ubuntu1804
-
+image: Visual Studio 2015 
 branches:
   only:
     - master
@@ -7,4 +6,4 @@ branches:
 build: off
 
 build_script:
-  - ./gradlew build
+  - gradlew build
